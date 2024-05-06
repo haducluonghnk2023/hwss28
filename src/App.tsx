@@ -11,7 +11,7 @@ import Exercise05 from './components/Exercise05';
 import Exercise06 from './components/Exercise06';
 import Exercise07 from './components/Exercise07';
 import Exercise08 from './components/Exercise08';
-// import Exercise09 from './components/Exercise09';
+import Exercise09 from './components/Exercise09';
 // import Exercise10 from './components/Exercise10';
 export default function App() {
   const fullName:string = "hoa";
@@ -33,7 +33,7 @@ export default function App() {
       <Exercise06></Exercise06>
       <Exercise07></Exercise07>
       <Exercise08></Exercise08>
-      {/* <Exercise09></Exercise09> */}
+      <Exercise09></Exercise09>
       {/* <Exercise10></Exercise10> */}
 
     </div>
