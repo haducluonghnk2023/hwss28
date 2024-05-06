@@ -16,6 +16,7 @@ export default class StateClass extends Component<any,ClassComponent> {
         }
     }
     // noi khai bao nhung  phuong thuc 
+    // setState ({})
     handleClick = () => {
         this.setState({
             count: this.state.count + 1

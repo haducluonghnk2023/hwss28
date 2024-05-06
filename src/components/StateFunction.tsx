@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 
 export default function StateFunction() {
     const [number, setNumber] = useState<number>(0);
+    
     const [fullName, setFullName] = useState<string>("minh thu");
     const handleClick = () => {
         setNumber(number + 1);
